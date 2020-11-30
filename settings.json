@@ -4,46 +4,51 @@
 	"java.semanticHighlighting.enabled": true,
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.detectIndentation": false,
+	"extensions.ignoreRecommendations": false,
+
+	// Prettier stuff
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+
+	// Code Formatting config
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
 	},
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"editor.wordWrap": "on",
-	"editor.detectIndentation": false,
-	"prettier.jsxSingleQuote": true,
-	"prettier.singleQuote": true,
-	"extensions.ignoreRecommendations": false,
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python"
-	},
 	"editor.formatOnSave": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorCustomizations": {
-        "terminal.background": "#2C3E50",
-        "terminal.foreground": "#E0E0E0",
-        "terminalCursor.background": "#E0E0E0",
-        "terminalCursor.foreground": "#E0E0E0",
-        "terminal.ansiBlack": "#2C3E50",
-        "terminal.ansiBlue": "#3498DB",
-        "terminal.ansiBrightBlack": "#95A5A6",
-        "terminal.ansiBrightBlue": "#3498DB",
-        "terminal.ansiBrightCyan": "#1ABC9C",
-        "terminal.ansiBrightGreen": "#2ECC71",
-        "terminal.ansiBrightMagenta": "#9B59B6",
-        "terminal.ansiBrightRed": "#E74C3C",
-        "terminal.ansiBrightWhite": "#ECF0F1",
-        "terminal.ansiBrightYellow": "#F1C40F",
-        "terminal.ansiCyan": "#1ABC9C",
-        "terminal.ansiGreen": "#2ECC71",
-        "terminal.ansiMagenta": "#9B59B6",
-        "terminal.ansiRed": "#E74C3C",
-        "terminal.ansiWhite": "#E0E0E0",
-        "terminal.ansiYellow": "#F1C40F"
-    },
-    "terminalAllInOne.terminalTheme": "Flat"
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	// Powershell/CMD Theming
+	"workbench.colorCustomizations": {
+		"terminal.background": "#2C3E50",
+		"terminal.foreground": "#E0E0E0",
+		"terminalCursor.background": "#E0E0E0",
+		"terminalCursor.foreground": "#E0E0E0",
+		"terminal.ansiBlack": "#2C3E50",
+		"terminal.ansiBlue": "#3498DB",
+		"terminal.ansiBrightBlack": "#95A5A6",
+		"terminal.ansiBrightBlue": "#3498DB",
+		"terminal.ansiBrightCyan": "#1ABC9C",
+		"terminal.ansiBrightGreen": "#2ECC71",
+		"terminal.ansiBrightMagenta": "#9B59B6",
+		"terminal.ansiBrightRed": "#E74C3C",
+		"terminal.ansiBrightWhite": "#ECF0F1",
+		"terminal.ansiBrightYellow": "#F1C40F",
+		"terminal.ansiCyan": "#1ABC9C",
+		"terminal.ansiGreen": "#2ECC71",
+		"terminal.ansiMagenta": "#9B59B6",
+		"terminal.ansiRed": "#E74C3C",
+		"terminal.ansiWhite": "#E0E0E0",
+		"terminal.ansiYellow": "#F1C40F"
+	},
+	"terminalAllInOne.terminalTheme": "Flat"
 }
