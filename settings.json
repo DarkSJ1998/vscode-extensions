@@ -50,5 +50,10 @@
 		"terminal.ansiWhite": "#E0E0E0",
 		"terminal.ansiYellow": "#F1C40F"
 	},
-	"terminalAllInOne.terminalTheme": "Flat"
+	"terminalAllInOne.terminalTheme": "Flat",
+
+	// VS Code 1.53.x Settings
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.decorations.colors": true, // For showing color on tabs for warnings/errors in files
+	"workbench.editor.decorations.badges": true // For showing the Git status of files on tabs like modified lines
 }
