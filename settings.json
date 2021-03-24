@@ -21,6 +21,9 @@
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[java]": {
+		"editor.defaultFormatter": "mwpb.java-prettier-formatter"
+	},
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
 	},
@@ -55,5 +58,11 @@
 	// VS Code 1.53.x Settings
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.decorations.colors": true, // For showing color on tabs for warnings/errors in files
-	"workbench.editor.decorations.badges": true // For showing the Git status of files on tabs like modified lines
+	"workbench.editor.decorations.badges": true,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	} // For showing the Git status of files on tabs like modified lines
 }
