@@ -64,5 +64,9 @@
 		"**/.project": true,
 		"**/.settings": true,
 		"**/.factorypath": true
-	} // For showing the Git status of files on tabs like modified lines
+	}, // For showing the Git status of files on tabs like modified lines
+
+	// VS Code 1.56.x Settings
+	"window.dialogStyle": "custom",
+	"terminal.integrated.tabs.enabled": true
 }
