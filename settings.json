@@ -1,10 +1,28 @@
 {
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+
 	"window.zoomLevel": 0,
 	"java.semanticHighlighting.enabled": true,
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"editor.detectIndentation": false,
+	"editor.detectIndentation": true,
 	"extensions.ignoreRecommendations": false,
 
 	// Prettier stuff
@@ -68,5 +86,10 @@
 
 	// VS Code 1.56.x Settings
 	"window.dialogStyle": "custom",
-	"terminal.integrated.tabs.enabled": true
+	"terminal.integrated.tabs.enabled": true,
+
+	// VS Code UI Customizations
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "material-icon-theme"
 }
