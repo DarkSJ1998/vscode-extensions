@@ -1,4 +1,5 @@
 {
+	// Terminal config.
 	"terminal.integrated.profiles.windows": {
 		"PowerShell": {
 			"source": "PowerShell",
@@ -23,17 +24,25 @@
 	"java.semanticHighlighting.enabled": true,
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"editor.detectIndentation": true,
 	"extensions.ignoreRecommendations": false,
 
-	// Prettier stuff
+	// VS Code UI Customizations
+	"workbench.colorTheme": "SynthWave '84",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "material-icon-theme",
+	"extensions.autoUpdate": false,
+	"window.menuBarVisibility": "compact",
+	"editor.guides.bracketPairs": "active",
+
+	// Prettier stuff.
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 
-	// Code Formatting config
+	// Code Formatting config.
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": true,
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python",
 		"editor.formatOnType": true
@@ -50,7 +59,7 @@
 	"editor.formatOnSave": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 
-	// Powershell/CMD Theming
+	// Powershell/CMD Theming.
 	"workbench.colorCustomizations": {
 		"terminal.background": "#2C3E50",
 		"terminal.foreground": "#E0E0E0",
@@ -75,7 +84,11 @@
 	},
 	"terminalAllInOne.terminalTheme": "Flat",
 
-	// VS Code 1.53.x Settings
+	// VS Code 1.52.x Settings.
+	// For HTML automatic tag renaming.
+	"editor.linkedEditing": true,
+
+	// VS Code 1.53.x Settings.
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.decorations.colors": true, // For showing color on tabs for warnings/errors in files
 	"workbench.editor.decorations.badges": true,
@@ -84,24 +97,13 @@
 		"**/.project": true,
 		"**/.settings": true,
 		"**/.factorypath": true
-	}, // For showing the Git status of files on tabs like modified lines
+	}, // For showing the Git status of files on tabs like modified lines.
 
-	// VS Code 1.56.x Settings
+	// VS Code 1.56.x Settings.
 	"window.dialogStyle": "custom",
 	"terminal.integrated.tabs.enabled": true,
 
-	// VS Code 1.71.x Settings
-	"editor.stickyScroll.enabled": true,
-	"terminal.integrated.smoothScrolling": false,
-
-	// VS Code UI Customizations
-	"workbench.colorTheme": "SynthWave '84",
-	"workbench.productIconTheme": "fluent-icons",
-	"workbench.iconTheme": "material-icon-theme",
-	"extensions.autoUpdate": false,
-	"window.menuBarVisibility": "compact",
-	"editor.guides.bracketPairs": "active",
-
+	// VS Code 1.67.x Settings.
 	// For enabling File nesting.
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
@@ -114,5 +116,8 @@
 		"tsconfig.json": "tsconfig.*.json",
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
 	},
-	"editor.linkedEditing": true
+
+	// VS Code 1.71.x Settings.
+	"editor.stickyScroll.enabled": true,
+	"terminal.integrated.smoothScrolling": false
 }
