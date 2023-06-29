@@ -32,6 +32,7 @@
 	"window.menuBarVisibility": "compact",
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": true,
+	"scm.defaultViewMode": "tree",
 
 	// Prettier stuff.
 	"prettier.tabWidth": 4,
