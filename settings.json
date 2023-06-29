@@ -19,8 +19,6 @@
 		}
 	},
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
-
-	"window.zoomLevel": 0,
 	"java.semanticHighlighting.enabled": true,
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -32,7 +30,8 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"extensions.autoUpdate": false,
 	"window.menuBarVisibility": "compact",
-	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
 
 	// Prettier stuff.
 	"prettier.tabWidth": 4,
@@ -61,28 +60,28 @@
 
 	// Powershell/CMD Theming.
 	"workbench.colorCustomizations": {
-		"terminal.background": "#2C3E50",
-		"terminal.foreground": "#E0E0E0",
-		"terminalCursor.background": "#E0E0E0",
-		"terminalCursor.foreground": "#E0E0E0",
-		"terminal.ansiBlack": "#2C3E50",
-		"terminal.ansiBlue": "#3498DB",
-		"terminal.ansiBrightBlack": "#95A5A6",
-		"terminal.ansiBrightBlue": "#3498DB",
-		"terminal.ansiBrightCyan": "#1ABC9C",
-		"terminal.ansiBrightGreen": "#2ECC71",
-		"terminal.ansiBrightMagenta": "#9B59B6",
-		"terminal.ansiBrightRed": "#E74C3C",
-		"terminal.ansiBrightWhite": "#ECF0F1",
-		"terminal.ansiBrightYellow": "#F1C40F",
-		"terminal.ansiCyan": "#1ABC9C",
-		"terminal.ansiGreen": "#2ECC71",
-		"terminal.ansiMagenta": "#9B59B6",
-		"terminal.ansiRed": "#E74C3C",
-		"terminal.ansiWhite": "#E0E0E0",
-		"terminal.ansiYellow": "#F1C40F"
+		"terminal.background": "#263238",
+		"terminal.foreground": "#CDD3DE",
+		"terminalCursor.background": "#CDD3DE",
+		"terminalCursor.foreground": "#CDD3DE",
+		"terminal.ansiBlack": "#263238",
+		"terminal.ansiBlue": "#89DDFF",
+		"terminal.ansiBrightBlack": "#707880",
+		"terminal.ansiBrightBlue": "#89DDFF",
+		"terminal.ansiBrightCyan": "#80CBC4",
+		"terminal.ansiBrightGreen": "#8BD649",
+		"terminal.ansiBrightMagenta": "#82AAFF",
+		"terminal.ansiBrightRed": "#EC5F67",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FFCC00",
+		"terminal.ansiCyan": "#80CBC4",
+		"terminal.ansiGreen": "#8BD649",
+		"terminal.ansiMagenta": "#82AAFF",
+		"terminal.ansiRed": "#EC5F67",
+		"terminal.ansiWhite": "#CDD3DE",
+		"terminal.ansiYellow": "#FFCC00"
 	},
-	"terminalAllInOne.terminalTheme": "Flat",
+	"terminalAllInOne.terminalTheme": "Materia",
 
 	// VS Code 1.52.x Settings.
 	// For HTML automatic tag renaming.
@@ -119,5 +118,10 @@
 
 	// VS Code 1.71.x Settings.
 	"editor.stickyScroll.enabled": true,
-	"terminal.integrated.smoothScrolling": false
+	"terminal.integrated.smoothScrolling": false,
+
+	// VS Code 1.79.x Settings.
+	"files.readonlyInclude": {
+		"node_modules/**": true
+	}
 }
