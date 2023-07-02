@@ -1,5 +1,5 @@
 {
-	// Terminal config.
+	// Terminal configuration.
 	"terminal.integrated.profiles.windows": {
 		"PowerShell": {
 			"source": "PowerShell",
@@ -19,12 +19,20 @@
 		}
 	},
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
-	"java.semanticHighlighting.enabled": true,
+	"terminal.integrated.confirmOnExit": "hasChildProcesses",
+	"terminal.integrated.tabs.title": "${cwdFolder}",
+	"terminal.integrated.tabs.description": "${workspaceFolder} (%{process}) ${separator}${task}",
+	"terminal.integrated.tabs.enableAnimation": true,
+
+	// General settings.
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"extensions.ignoreRecommendations": false,
 
-	// VS Code UI Customizations
+	// VS Code UI Customizations.
+	"editor.fontLigatures": true,
+	"editor.minimap.autohide": true,
+	"editor.minimap.enabled": true,
 	"workbench.colorTheme": "SynthWave '84",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.iconTheme": "material-icon-theme",
@@ -33,31 +41,6 @@
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": true,
 	"scm.defaultViewMode": "tree",
-
-	// Prettier stuff.
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"prettier.jsxSingleQuote": true,
-	"prettier.singleQuote": true,
-
-	// Code Formatting config.
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.detectIndentation": true,
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python",
-		"editor.formatOnType": true
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[java]": {
-		"editor.defaultFormatter": "mwpb.java-prettier-formatter"
-	},
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
-	"editor.formatOnSave": true,
-	"diffEditor.ignoreTrimWhitespace": false,
 
 	// Powershell/CMD Theming.
 	"workbench.colorCustomizations": {
@@ -84,7 +67,46 @@
 	},
 	"terminalAllInOne.terminalTheme": "Materia",
 
-	// VS Code 1.52.x Settings.
+	// Code Formatting config.
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": true,
+	"[html, javascript, xml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "mwpb.java-prettier-formatter"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnType": true
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.formatOnSave": true,
+
+	// "Code Spell Checker" Settings.
+	"cSpell.userWords": [],
+
+	// "GitLens" Settings.
+	"gitlens.views.lineHistory.avatars": true,
+
+	// "Language Support for Java" Settings.
+	"java.compile.nullAnalysis.mode": "automatic",
+
+	// "Prettier" Settings.
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+
+	// VS Code 1.44.x Settings.
 	// For HTML automatic tag renaming.
 	"editor.linkedEditing": true,
 
@@ -100,12 +122,14 @@
 	}, // For showing the Git status of files on tabs like modified lines.
 
 	// VS Code 1.56.x Settings.
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"window.dialogStyle": "custom",
 	"terminal.integrated.tabs.enabled": true,
 
 	// VS Code 1.67.x Settings.
 	// For enabling File nesting.
 	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": true,
 	"explorer.fileNesting.patterns": {
 		"*.component.ts": "${capture}.component.css, ${capture}.component.html, ${capture}.component.less, ${capture}.component.scss, ${capture}.component.spec.ts",
 		"*.module.ts": "${capture}-routing.module.ts",
@@ -117,8 +141,13 @@
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
 	},
 
-	// VS Code 1.71.x Settings.
+	// VS Code 1.69.x Settings.
+	"git.mergeEditor": false,
+	"editor.minimap.size": "fill",
 	"editor.stickyScroll.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	// VS Code 1.71.x Settings.
 	"terminal.integrated.smoothScrolling": false,
 
 	// VS Code 1.79.x Settings.
