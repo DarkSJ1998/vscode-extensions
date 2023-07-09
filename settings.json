@@ -21,7 +21,7 @@
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.confirmOnExit": "hasChildProcesses",
 	"terminal.integrated.tabs.title": "${cwdFolder}",
-	"terminal.integrated.tabs.description": "${workspaceFolder} (%{process}) ${separator}${task}",
+	"terminal.integrated.tabs.description": "${workspaceFolder} (${process}) ${separator}${task}",
 	"terminal.integrated.tabs.enableAnimation": true,
 
 	// General settings.
