@@ -31,16 +31,17 @@
 
 	// VS Code UI Customizations.
 	"editor.fontLigatures": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
 	"editor.minimap.autohide": true,
 	"editor.minimap.enabled": true,
+	"extensions.autoUpdate": false,
+	"scm.defaultViewMode": "tree",
+	"window.commandCenter": true,
+	"window.menuBarVisibility": "compact",
 	"workbench.colorTheme": "SynthWave '84",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.iconTheme": "material-icon-theme",
-	"extensions.autoUpdate": false,
-	"window.menuBarVisibility": "compact",
-	"editor.guides.bracketPairs": true,
-	"editor.guides.bracketPairsHorizontal": true,
-	"scm.defaultViewMode": "tree",
 
 	// Powershell/CMD Theming.
 	"workbench.colorCustomizations": {
