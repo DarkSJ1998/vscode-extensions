@@ -30,6 +30,7 @@
 	"extensions.ignoreRecommendations": false,
 
 	// VS Code UI Customizations.
+	"editor.fontFamily": "'Cascadia Code', 'Source Code Pro SemiBold', Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": true,
