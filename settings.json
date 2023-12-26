@@ -99,6 +99,10 @@
 	// "GitLens" Settings.
 	"gitlens.views.lineHistory.avatars": true,
 
+	// "GlassIt-VSC" Settings.
+	"glassit.alpha": 255,
+	"glassit.step": 20,
+
 	// "Language Support for Java" Settings.
 	"java.compile.nullAnalysis.mode": "automatic",
 
@@ -155,5 +159,15 @@
 	// VS Code 1.79.x Settings.
 	"files.readonlyInclude": {
 		"node_modules/**": true
-	}
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	// VS Code 1.83.x Settings.
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+
+	// VS Code 1.85.x Settings.
+	"terminal.integrated.stickyScroll.enabled": true,
+	"terminal.integrated.stickyScroll.maxLineCount": 5,
+	"workbench.tree.enableStickyScroll": true,
+	"workbench.tree.stickyScrollMaxItemCount": 7
 }
