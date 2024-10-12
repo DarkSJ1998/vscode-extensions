@@ -26,7 +26,6 @@
 
 	// General settings.
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"extensions.ignoreRecommendations": false,
 
 	// VS Code UI Customizations.
@@ -36,7 +35,6 @@
 	"editor.guides.bracketPairsHorizontal": true,
 	"editor.minimap.autohide": true,
 	"editor.minimap.enabled": true,
-	"extensions.autoUpdate": false,
 	"scm.defaultViewMode": "tree",
 	"window.commandCenter": true,
 	"window.menuBarVisibility": "compact",
@@ -112,6 +110,13 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 
+	// Zen mode
+	"zenMode.fullScreen": false,
+	"zenMode.showTabs": "single",
+
+	// Smooth caret animation
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
 	// VS Code 1.44.x Settings.
 	// For HTML automatic tag renaming.
 	"editor.linkedEditing": true,
@@ -169,5 +174,10 @@
 	"terminal.integrated.stickyScroll.enabled": true,
 	"terminal.integrated.stickyScroll.maxLineCount": 5,
 	"workbench.tree.enableStickyScroll": true,
-	"workbench.tree.stickyScrollMaxItemCount": 7
+	"workbench.tree.stickyScrollMaxItemCount": 7,
+
+	// VS Code 1.91.x Settings.
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	}
 }
