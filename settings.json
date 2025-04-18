@@ -6,7 +6,7 @@
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.hideOnStartup": "whenEmpty",
-	"terminal.integration.profiles.osx": {
+	"terminal.integrated.profiles.osx": {
 		"bash": {
 			"path": "/bin/bash",
 			"icon": "terminal-linux"
