@@ -29,7 +29,7 @@
 	"extensions.ignoreRecommendations": false,
 
 	// VS Code UI Customizations.
-	"editor.fontFamily": "'Cascadia Code', 'Source Code Pro SemiBold', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'CaskaydiaCove Nerd Font', 'Source Code Pro SemiBold', Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": true,
@@ -113,6 +113,10 @@
 	// Zen mode
 	"zenMode.fullScreen": false,
 	"zenMode.showTabs": "single",
+
+	// Blinking cursor animation
+	"editor.cursorStyle": "block",
+	"editor.cursorBlinking": "expand",
 
 	// Smooth caret animation
 	"editor.cursorSmoothCaretAnimation": "explicit",
