@@ -110,6 +110,9 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 
+	// "vscode-pets" Settings
+	"vscode-pets.theme": "winter",
+
 	// Zen mode
 	"zenMode.fullScreen": false,
 	"zenMode.showTabs": "single",
