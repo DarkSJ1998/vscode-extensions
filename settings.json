@@ -1,4 +1,8 @@
 {
+	// Proxy settings (to be set only in the user settings, doesn't work with workspace/profile settings)
+	// "http.proxy": "http://proxy.example.com:8080",
+	// "http.proxyStrictSSL": false,
+
 	// Terminal configuration.
 	"terminal.integrated.confirmOnExit": "hasChildProcesses",
 	"terminal.integrated.cursorBlinking": true,
@@ -154,7 +158,7 @@
 
 	// Enabling the commit message validations for Git integration
 	"git.inputValidation": true,
-	"git.inputValidationLength": 50,
+	"git.inputValidationSubjectLength": 50,
 
 	// VS Code 1.44.x Settings.
 	// For HTML automatic tag renaming.
