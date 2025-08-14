@@ -67,6 +67,7 @@
 	"scm.defaultViewMode": "tree",
 	"window.commandCenter": true,
 	"window.menuBarVisibility": "compact",
+	"window.zoomLevel": 0,
 	"workbench.colorTheme": "Andromeda Italic",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.iconTheme": "material-icon-theme",
