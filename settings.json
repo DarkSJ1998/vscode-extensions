@@ -58,7 +58,7 @@
 	"editor.fontLigatures": true,
 	"editor.guides.bracketPairs": true,
 	"editor.guides.bracketPairsHorizontal": true,
-	"editor.minimap.autohide": true,
+	"editor.minimap.autohide": "mouseover",
 	"editor.minimap.enabled": true,
 	"scm.defaultViewMode": "tree",
 	"window.commandCenter": true,
@@ -119,6 +119,9 @@
 	// "Code Spell Checker" Settings.
 	"cSpell.userWords": [],
 
+	// GitHub Copilot Settings
+	"github.copilot.nextEditSuggestions.enabled": true,
+
 	// "GitLens" Settings.
 	"gitlens.views.lineHistory.avatars": true,
 
@@ -127,7 +130,7 @@
 	"glassit.step": 20,
 
 	// "Language Support for Java" Settings.
-	"java.compile.nullAnalysis.mode": "automatic",
+	// "java.compile.nullAnalysis.mode": "automatic",
 
 	// "Prettier" Settings.
 	"prettier.tabWidth": 4,
@@ -148,6 +151,10 @@
 
 	// Smooth caret animation
 	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	// Enabling the commit message validations for Git integration
+	"git.inputValidation": true,
+	"git.inputValidationLength": 50,
 
 	// VS Code 1.44.x Settings.
 	// For HTML automatic tag renaming.
