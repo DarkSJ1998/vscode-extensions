@@ -1,6 +1,7 @@
 {
 	// Proxy settings (to be set only in the user settings, doesn't work with workspace/profile settings)
 	// "http.proxy": "http://proxy.example.com:8080",
+	// "http.noProxy": ["example.com"],
 	// "http.proxyStrictSSL": false,
 
 	// Terminal configuration.
